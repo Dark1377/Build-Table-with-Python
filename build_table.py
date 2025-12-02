@@ -1,3 +1,4 @@
+# Dowland libraries "prettytable" and "matplotlib"
 from prettytable import PrettyTable
 import matplotlib.pyplot as diagram
 receipt = PrettyTable()
