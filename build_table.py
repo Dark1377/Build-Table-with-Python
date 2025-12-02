@@ -5,13 +5,13 @@ receipt.field_names=['№','Продукт', 'Цена', 'Количество',
 product=[]
 pay=[]
 for i in range(1):
-    product=input('Укажите название продукта: ')
+    products=input('Укажите название продукта: ')
     price=int(input('Введите цену продукта: '))
-    count=int(input('Введите количество продуктов: '))
-    receipt.add_row([i+1, product, f'{price} руб.', f'{quantity} шт.', f'{price*quantity}' руб.])
-    product.append(product)
+    quantity=int(input('Введите количество продуктов: '))
+    receipt.add_row([i+1, products, f'{price} руб.', f'{quantity} шт.', f'{price*quantity} руб.'])
+    products.append(products)
     pay.append(price*quantity)
 print(receipt)
-diagram.bar(product, pay)
+diagram.bar(products, pay)
 diagram.colorbar('green')
 diagram.show()
