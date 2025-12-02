@@ -1,2 +1,2 @@
 # Build-Table-with-Python
-# Dowland libraries "prettytable" and "matplotlib"
+Dowland libraries "prettytable" and "matplotlib"
